@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+/* ============= */
+/* Header  */
+/* ============== */
+.top_bar,
+.navbar {
+  background: #0c0b0b;
+}
+.top_bar {
+  color: rgb(197, 194, 194);
+  font-size: 0.8rem;
+  height: 25px;
+}
+.bottom_bar {
+  height: 100px;
+}
+.logo {
+  width: 150px;
+  height: 100px;
+}
+.logo img {
+  object-fit: cover;
+}
+.search {
+  height: 50px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.search input {
+  border: none;
+  width: 80%;
+  height: 100%;
+  outline: none;
+  padding: 2px;
+  color: rgb(173, 174, 173);
+}
+.search .iconify {
+  cursor: pointer;
+  font-size: 2em !important;
+}
+.weather_update {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weather_update .iconify {
+  font-size: 3.5em;
+}
+.navbar {
+  height: 55px;
+  overflow: hidden;
+  transition: all 0.5s !important;
+}
+.navbar_active {
+  height: 600px !important;
+}
+.flag {
+  font-size: 2em !important;
+}
+.menu {
+  font-size: 3em !important;
+}
